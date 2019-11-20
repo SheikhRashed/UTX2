@@ -1,0 +1,621 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+  
+::after, ::before {
+  box-sizing: border-box;
+}
+   
+h1, h2, h3, h4, h5, h6, ol, ul, p, address, strong, i {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+    
+ul, li {
+  list-style: none;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+body {
+  background: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+/* basic css end */
+
+/* common css start */
+h1 {
+    font-size: 45px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.038;
+    white-space: pre-line;
+    padding: 150px 0 0 0 ;
+  }
+
+h2 {
+  font-size: 24px;
+  color: #222;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 20px;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+
+.p {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(136, 136, 136);
+  line-height: 22px;
+  
+}
+
+
+.my-btn {
+  border-radius: 3px;
+  background-color: rgb(255, 83, 83);
+  max-width: 170px;
+  padding: 15px 25px;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.143;
+  text-align: center;
+}
+.my-btn-sm {
+  border-radius: 3px;
+  background-color: rgb(255, 83, 83);
+  max-width: 200px;
+  padding: 10px 20px;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.143;
+  text-align: center;
+}
+
+
+/*// end of common css */
+
+/* main css start */
+
+/* === header part start === */
+.header-top  {
+  background-color: rgb(247, 125, 125);
+  height: 40px;
+}
+
+.header .header-top .left li {
+  display: inline-block;
+  padding: 3px 20px 3px  0;
+  font-size: 11px;
+  font-family: "Myriad Pro";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 2.455;
+  padding-top: 10px;
+}
+
+
+.header .header-top .right li {
+  display: inline-block;
+  padding: 3px 0px 3px  20px;
+}
+
+.header .header-top .right li a {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  text-align: right;
+}
+
+/* === header part start === */
+
+/* === banner part start === */
+.banner {
+  min-height: 650px;
+  background: url(../images/banner-bg.png) no-repeat center center/cover;
+}
+
+.banner p {
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  line-height: 40px;
+  margin: 20px 0 30px  0;
+}
+
+/* === banner part start === */
+
+/* === yellow part start === */
+.yellow {
+  background: #fbd082;
+  font-size: 20px;
+  font-weight: 500;
+  color: #333;
+  font-weight: 300;
+}
+
+.yellow span {
+  padding-top: 5px;
+}
+/* === yellow part start === */
+
+
+/* === about part start === */
+#about {
+  min-height: 450px;
+}
+.abt-header {
+  background: #fbd082;
+}
+.about-img {
+  background: url(../images/About.png) center center/cover no-repeat;
+  min-height: 450px;
+}
+
+#about p  {
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  line-height: 1.714;
+}
+
+
+/* === about part end === */
+
+/* === About part start === */
+.abt{
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 7.2px 1.8px rgba(0, 0, 0, 0.35);
+}
+#About {
+  margin-top: 100px;
+}
+
+#About .abt {
+  padding: 120px 30px;
+} 
+.section-heading .heading.About_US {
+  font-size: 60px;
+  font-family: "Roboto",sans-serif;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+}
+
+.About-txt {
+    font-size: 35.534px;
+    font-family: "Roboto",sans-serif;
+    color: rgb(136, 136, 136);
+    line-height: 1.2;
+    text-align: center;
+  }
+  
+/* ===  About part End === */
+
+
+/* === process part start === */
+.process {
+  padding: 80px 0px;
+}
+.process .process-1,
+.process .process-3 {
+  margin-left: -60px;
+}
+.process .process-2,
+.process .process-4 {
+  margin-right: -60px;
+}
+
+.process h5 {
+  padding-bottom: 10px;
+}
+
+.section-heading .heading {
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  text-transform: uppercase;
+  
+}
+.section-heading .sub-heading  {
+  font-size: 14px;
+  color: rgb(174, 174, 174);
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+
+.process img {
+  min-height: 100px;
+  min-width: 100px;
+}
+
+.process .txt h5  {
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.process .txt p  {
+  font-size: 12px;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  line-height: 1.333;
+}
+/* === process part end === */
+
+
+/* === coin-creation part start === */
+.coin-creation .txt .heading  {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(136, 136, 136);
+  text-transform: uppercase;
+  line-height: 1;
+  padding-bottom: 20px;
+}
+
+.coin-creation .txt p  {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(136, 136, 136);
+  line-height: 1.429;
+}
+/* === coin-creation part end === */
+
+/* === service part start === */
+.service {
+  background: #d6d6d6;
+  padding: 80px 0;
+}
+
+.service .sec-heading {
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  padding-bottom: 40px;
+}
+
+
+.service .icon {
+  padding-bottom: 20px;
+}
+
+.service .main-service h6{
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  line-height: 0.8;
+}
+
+.service .main-service p {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(0, 0, 0);
+  line-height: 1.143;
+}
+
+
+/* === service part end === */
+
+
+/* === choose-us part start === */
+.choose-us {
+  background: #fbd082;
+  padding: 80px 0;
+}
+
+.choose-us .sec-heading {
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  padding-bottom: 40px;
+}
+
+
+.choose-us .icon {
+  padding-bottom: 20px;
+}
+
+.choose-us .main-choose-us h6{
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  line-height: 0.8;
+}
+
+.choose-us .main-choose-us p {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(0, 0, 0);
+  line-height: 1.143;
+}
+/* === choose-us part end === */
+
+/* === ico part start === */
+.ico {
+  padding: 80px  0;
+  background: #333232;
+}
+
+.ico .heading {
+  font-size: 27px;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+}
+
+.ico .ico-top p  {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  font-weight: 300;
+}
+
+.ico-bottom h6  {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+}
+
+.ico-bottom p,
+.ico-bottom h6  {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: 300;
+  line-height: 1.2;
+}
+/* === ico part end === */
+
+/* === all-development part start === */
+.all-development {
+  background: #fbd082;
+  padding: 30px 0;
+}
+
+.all-development li {
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  line-height: 1.2;
+  padding: 20px 0;
+}
+/* === all-development part end === */
+
+
+/* === yello dard part start === */
+.yellow.dark {
+  background: #333232;
+}
+
+.yellow.dark span {
+  color: #fff;
+}
+/* === yello dard part end === */
+
+
+/* === uta-logo part start === */
+.uta-logo {
+  padding: 80px 0;
+}
+.uta-logo img {
+  width: 80%;
+}
+
+.uta-logo .heading {
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.uta-logo p {
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(0, 0, 0);
+  font-weight: 400;
+}
+/* === uta-logo part end === */
+
+
+/* === coin part start === */
+.coin {
+  background: #333232;
+  padding: 80px 0;
+}
+
+.coin .heading {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+}
+
+.coin ul li {
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+}
+
+.coin li img {
+  max-width: 100px;
+  margin: auto;
+}
+/* === coin part end === */
+
+/* === contact part start === */
+.contact {
+  padding: 100px 15px 80px 15px;
+}
+ 
+.contact .container  {
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 7.2px 1.8px rgba(0, 0, 0, 0.35);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.contact .left {
+  width: 50%;
+}
+
+.contact .right {
+  width: 50%;
+}
+
+.contact .right small {
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(136, 136, 136);
+  line-height: 1.6;
+  width: 50%;
+  padding-left: 10px;
+}
+
+.contact .right .form-group {
+  width: 50%;
+}
+
+
+.contact span.top,
+.contact label,
+.contact ::placeholder,
+.contact .form-control {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: #888;
+}
+/* === contact part end === */
+
+/* === footer part start === */
+.footer {
+  padding: 30px 0;
+  background: #272626;
+  margin: 40px 0 80px 0;
+}
+
+.footer .about-heading {
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.footer .footer-right a,
+.footer p.about-txt {
+  font-size: 13px;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  font-weight: 300;
+  display: block;
+}
+
+.footer .footer-right .email-btn a {
+  background: #333232;
+  padding:5px 10px;
+  margin-top: -5px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+}
+
+.footer .footer-bottom {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  font-weight: 300;
+  padding-top: 60px;
+}
+/* ===//end of footer part === */
+
+/* === Contact Part Start  === */
+.contact {
+  padding: 120px 0px;
+}
+.share-head {
+  margin-bottom: 20px;
+}
+
+.share-head span {
+  border: 2px solid;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 30px;
+  font-family: "Roboto",sans-serif;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+.form-group input{
+  text-align: center;
+}
+.form-group input::placeholder {
+  text-align: center;
+  position: relative;
+  text-transform: capitalize;
+  font-size: 14px;
+}
+
+select {
+  /* for Firefox */
+  -moz-appearance: none;
+  /* for Chrome */
+  -webkit-appearance: none;
+  width: 400px; 
+  text-align-last:center; 
+  font-size: 16px;
+}
+/* For IE10 */
+select::-ms-expand {
+  display: none;
+}
+.form-group .flaq img {
+  position: absolute;
+  top: 182px;
+  left: 28px;
+}
+.btn-h {
+  width: 158px;
+  height: 40px;
+  line-height: 20px;
+}
+.w-45 {
+  width: 49%;
+}
+.mt-70 {
+  margin-top: 70px;
+}
+textarea.area-height {
+  height: 150px;
+  overflow: auto;
+}
+/* // end of Contact Part */
+
+/* 
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/

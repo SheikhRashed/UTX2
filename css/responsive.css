@@ -1,0 +1,122 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+
+  h1 {
+    font-size: 32px;
+  }
+    .contact .left {
+        width: 100%;
+      }
+      
+      .contact .right {
+        width: 100%;
+      }
+
+      .yellow.two-btn .my-btn-sm {
+        margin: 5px auto;
+      }
+
+      .my-btn {
+        padding: 10px 15px;
+      }
+
+      .section-heading .heading.About_US {
+        font-size: 36px;
+      }
+
+      .About-txt {
+        font-size: 16px;
+        padding: 0px 12px !important;
+      }
+
+      .form-group .flaq img {
+        top: 182px;
+    }
+}
+
+/* Small devices (landscape phones upto 767px) */
+@media (max-width: 767px) {
+  .process .process-1,
+  .process .process-3 {
+    margin-left: 15px;
+  }
+  .process .process-2,
+  .process .process-4 {
+    margin-right: 15px;
+  }
+
+  .header-top {
+    height: auto;
+    text-align: center;
+  }
+
+  .header .header-top .left li {
+    padding: 3px 5px 3px 0;
+}
+
+.all-development li {
+  font-size: 18px;
+}
+.form-group .flaq img {
+  top: 182px;
+}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+  .About-txt {
+    font-size: 22px;
+    padding: 0px 12px;
+  }
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) { 
+  .process .process-1,
+  .process .process-3 {
+    margin-left: -80px;
+  }
+  .process .process-2,
+  .process .process-4 {
+    margin-right: -80px;
+  }
+
+  .About-txt {
+    font-size: 30px;
+    padding: 0px 12px;
+  }
+
+ }
+
+/* Large devices (desktops and laptop) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .About-txt {
+    padding: 0px 12px;
+  }
+
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+ 
+
+  .process .process-1,
+.process .process-3 {
+  margin-left: -47px;
+}
+.process .process-2,
+.process .process-4 {
+  margin-right: -47px;
+}
+
+ }
+
+ /* Large devices (desktops and laptop) */
+@media (min-width: 1400px) {
+  .contact .container {
+    max-width: 70%;
+    padding: 60px;
+}
+}
+
